@@ -27,11 +27,17 @@ function Base() {
         )
     }
 
-    
   return (
     <div className="containerTopLevel">
 
+        <div className="form-input">
+            <input type="text" value={newItem} onChange={handleInputChange}/>
+
+
+        </div>
       <RenderTasks tasks={task} />
+
+
 
       </div>
   )
