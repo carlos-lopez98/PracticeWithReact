@@ -3,12 +3,10 @@ import React, {useState} from 'react'
 /* Here we have a main Base React component, that renders a list
    Using a nested RenderTasks component  */
 
-
-
 function Base() {
     // TODO: Define a state variable that holds a list of items
     // useState can be used to manage it's state
-    const [task, setTask] = useState (["Watch Dishes",
+    const [task, setTask] = useState (["Wash Dishes",
     "Clean Towels", 
     "Clean Floor", 
     "Feed Dog"]);
